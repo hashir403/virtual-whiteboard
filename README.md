@@ -8,3 +8,16 @@ Python 3.x
 OpenCV
 Mediapipe
 NumPy
+
+
+| Gesture / Key     | Action            |
+| ----------------- | ----------------- |
+| Index Finger Up   | Draw              |
+| Index + Middle Up | Move (no draw)    |
+| All Fingers Up    | Erase             |
+| Fist (No fingers) | Idle              |
+| `C` Key           | Change Color      |
+| `B` Key           | Change Brush Size |
+| `R` Key           | Reset Canvas      |
+| `S` Key           | Save Drawing      |
+| `ESC`             | Exit Program      |
